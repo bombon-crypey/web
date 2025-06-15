@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="CSS3/formulario.css">
+</head>
+<body>
+    <header>
+        <h1>IMSS BIENESTAR <img src="IMG3/bienestar.jpg" height="100px" width="100px" alt=""></h1> 
+        <nav>
+            <table>
+                <tr>
+                <td><h3><a href="index_E5.html">Inicio</a></h3></td>
+                <td><h3><a href="formulario.html">Agenda Citas</a></h3></td>
+		        <td><h3><a href="INFO_CLINICA.HTML">Historia de la clinica</a></h3></td>
+                <td><h3><a href="Sabiasque.html">¿Sabias que?</a></h3></td>
+                <td><h3><a href="organigrama.html">Organigrama</a></h3></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+    <section>
+        <h2>Método Anterior de Registro de Citas</h2>
+          <P><img src="IMG3/citas.jpg" height="100px" width="100px" alt=""></P> 
+
+            <P class="parrafos">Las citas se anotaban en una libreta.</P>
+            <P class="parrafos">Difícil organización, expedientes desordenados.</P>
+            <P class="parrafos">Comprobante en papel con fecha y hora.</P>
+            <P class="parrafos">Carga administrativa para las enfermeras.</P>
+            
+            <P><img src="IMG3/comp.jpg" height="100px" width="100px" alt=""></P>
+            <h2>Propuesta Actual para Agendar Citas</h2>
+            <P class="parrafos">Formulario digital para registrar citas.</P>
+            <P class="parrafos">Expedientes organizados y búsqueda fácil.</P>
+            <P class="parrafos">Confirmación electrónica por correo o mensaje.</P>
+            <P class="parrafos">Menos carga administrativa para el personal.</P>
+       
+    </section>
+
+
+    <!-- Formulario principal -->
+    <script>
+        function validarFormulario(event) {
+            event.preventDefault(); // Evitar que el formulario se envíe automáticamente
+
+            // Obtener los valores de los campos
+            var numero = document.forms["formulario"]["numero"].value;
+            var nombre = document.forms["formulario"]["nombre"].value;
+            var edad = document.forms["formulario"]["edad"].value;
+            var sexo = document.forms["formulario"]["sexo"].value;
+            var fecha = document.forms["formulario"]["fecha"].value;
+            var razon = document.forms["formulario"]["razon"].value;
+
+            // Validar si todos los campos están llenos
+            if (numero === "" || nombre === "" || edad === "" || sexo === "" || fecha === "" || razon === "") {
+                alert("Error!! Debes llenar todos los campos");
+            } else {
+                alert("Tu cita se ha registrado con éxito!!");
+                document.forms["formulario"].submit(); // Enviar el formulario
+            }
+        }
+    </script>
+</head>
+<body>
+    <form name="formulario" onsubmit="validarFormulario(event)">
+        <label>Número de seguro social/CURP:</label>
+        <input type="text" name="numero"><br><br>
+
+        <label>Nombre completo:</label>
+        <input type="text" name="nombre"><br><br>
+
+        <label>Edad:</label>
+        <input type="text" name="edad"><br><br>
+
+         <label>Fecha de Nacimiento:</label>
+        <input type="date" id="fechanac"><br><br>
+
+        <label>Sexo:</label>
+        <select name="sexo">
+            <option value="">Selecciona una opción</option>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+        </select><br><br>
+
+        <label>Fecha:</label>
+        <input type="date" id="fecha"><br><br>
+        
+        <label>Hora:</label>
+        <input type="time" id="hora"><br><br>
+
+        <label>Razón o motivo:</label>
+        <textarea name="razon" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <footer> 
+        <p class="vistas">También puedes visitarnos en...</p>
+        <table>
+            <tr>
+                <td><h3><a href="https://www.facebook.com/SSIMSSBIENESTAR/?locale=es_LA">Facebook</a></h3></td>
+                <td><h3><a href="https://www.instagram.com/imss.bienestar/">Instagram</a></h3></td>
+                <td><h3><a href="https://x.com/IMSS_Bienestar/status/1434534912711856133?lang=es">X</a></h3></td>
+                <td><h3><a href="https://imssbienestar.gob.mx/">IMSS BIENESTAR OFICIAL</a></h3></td>
+            </tr>
+        </table> 
+        <footer>
+        <p class="dautor"> &copy; Derechos reservados de autor. Equipo 5 Integrantes:</p>
+        <p class="dautor">Abril Arana Ramírez No. L4</p>
+        <p class="dautor">Ivón Enríquez Flores No. L9</p>
+        <p class="dautor">Ingrid Felipe Encarnación No. L10</p>
+        <p class="dautor">Tiara Jael Martínez Santos No. L22</p>
+        <p class="dautor">Carlos Mejía Domínguez No. L24</p>
+        <p class="dautor">Bryan Pérez Godínez No. L30</p>
+    </footer>
+</body>
+</html>

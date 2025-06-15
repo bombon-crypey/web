@@ -1,0 +1,203 @@
+/* Estilos para el formulario */
+form {
+    background-color: #AFF8FF; 
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left; /* Alineación del texto a la izquierda */
+    width: 300px; /* Ancho del formulario */
+    margin: 20px 0; /* Separación respecto a las imágenes */
+}
+
+form ul {
+    list-style-type: none; /* Quitar viñetas de la lista */
+    padding: 0; /* Eliminar espacio interno de la lista */
+}
+
+form li {
+    margin-bottom: 15px; /* Espaciado entre elementos de la lista */
+}
+
+input, select {
+    width: 100%; /* Ancho completo */
+    padding: 5px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde sutil */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+button {
+    background-color: #28a745; /* Color verde */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%; /* Botón ocupa el ancho del formulario */
+}
+
+button:hover {
+    background-color: #218838; /* Color más oscuro al pasar el mouse */
+}
+
+/* Estilos generales */
+body {
+    background-color: aliceblue;
+}
+
+header {
+    background-color: #a9cce3;
+    width: 100%;
+    height: 115px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 250%;
+    font-family: italic;
+    color: black;
+}
+
+table {
+    margin: auto;
+    width: 60%;
+}
+
+td {
+    text-align: center;
+}
+
+.wrapper {
+    margin: 150px auto;
+    width: 70%;
+}
+
+img {
+    max-width: 350px;
+    float: left;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.dautor, .vistas {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+    color: black;
+}
+
+footer {
+    background-color: #85c1e9;
+    position: static;
+    width: 100%;
+    bottom: 0;
+    height: 250px;/* Centrar el formulario */
+form {
+    background-color: #AFF8FF;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    width: 300px;
+    margin: 20px auto; /* Esto centra el formulario */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Centrar el apartado de métodos de registro */
+section {
+    margin: 20px auto; /* Esto centra el apartado */
+    padding: 15px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 60%; /* Ajusta el ancho */
+    text-align: center; /* Centra el texto */
+}
+
+section h2 {
+    color: #2c3e50;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style-type: square;
+    padding-left: 0; /* Quitar indentación */
+}
+
+section ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+}
+
+/* Estilos para el apartado de métodos de registro */
+section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+section h2 {
+    color: #2c3e50;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+section ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+/* Centrar el formulario */
+form {
+    background-color: #AFF8FF;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    width: 300px;
+    margin: 20px auto; /* Esto centra el formulario */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Centrar el apartado de métodos de registro */
+section {
+    margin: 20px auto; /* Esto centra el apartado */
+    padding: 15px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 60%; /* Ajusta el ancho */
+    text-align: center; /* Centra el texto */
+}
+
+section h2 {
+    color: #2c3e50;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style-type: square;
+    padding-left: 0; /* Quitar indentación */
+}
+
+section ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.parrafos{
+    text-align: center;
+    FONT: SIZE 40px;
+    FONT-FAMILY:'Georgia', serif;
+    COLOR:rgb(29, 196, 146);
+}

@@ -1,0 +1,101 @@
+/* Fondo general */
+body {
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado (puedes usar un div con clase .encabezado como header) */
+header {
+    background-color: #a9cce3;
+    width: 100%;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    
+    
+}
+td{
+    text-align: center;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    font-size: 250%;
+    font-family:ITALIC;
+    margin: 20px 0;
+}
+
+/* Subtítulos */
+.tex-box h2 {
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Imagen */
+img {
+     max-width: 300px;
+    float: left;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+/* Texto de la historia */
+.text-box p{
+    font-size: 150;
+    font-family: 'Georgia', serif;
+    color: rgb(29, 196, 146);
+}
+
+/* Link */
+a {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #1f4e79;
+    margin-bottom: 40px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #85c1e9;
+    width: 100%;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 1em;
+    position: static;
+}
+.vistas{
+    text-align: center;
+    font-size: 15px;
+    FONT-FAMILY:'Georgia', serif;
+    COLOR:black;
+}
+.dautor{
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
